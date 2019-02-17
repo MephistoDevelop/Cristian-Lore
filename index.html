@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8"/>
+        <meta name="author" content="Lorena, Cristian"/>
+        <meta name="language" content="en"/>
+        <meta name="generator" content="JetBrains WebStorm 2018.3.4"/>
+        <meta name="description" content="This is a collaboratibe project page between Lorena and Cristian for Microverse"/>
+        <meta name="keywords" content="HTML, CSS, JavaScript, project, Microverse"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link rel="icon" href="new-icon.png"/>
+        <title>Microverse Project (Survey Page)</title>
+
+        <link rel="stylesheet" href="header-style.css"/>
+        <link rel="stylesheet" href="body-style.css"/>
+
+    </head>
+
+    <body id="body">
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+        <header id="header">
+
+            <h1 id="title">Microverse Project (Survey Page)</h1>
+            <p id="description">This is a collaboratibe project page between Lorena and Cristian for Microverse</p>
+
+        </header>
+
+        <section id="sec_form">
+            <form id="survey-form">
+
+                <fieldset>
+                    <p>
+                        <label id="name-label">Name</label>
+                        <input type="text" id="name" style="width: 250px;height: 20px" required placeholder="Name">
+                    </p>
+                    <p>
+                        <label id="email-label">Email:</label>
+                        <input type="email" id="email" pattern="\b[A-Z0-9._%+-]+@(?:[A-Z0-9-]+\.)+[A-Z]{2,6}\b" required placeholder="Email" style="width: 250px;height: 20px">
+                    </p>
+                    <p>
+                        <label id="number-label">Age:</label>
+                        <input type="number" id="number" min="0" max="116" placeholder="0" style="width: 250px;height: 20px">
+                    </p>
+                </fieldset>
+
+                <fieldset id="recommend">
+                    <p>Would you like to recommend Microverse?</p>
+                    <p><input id="yes" value="rb" type="radio" name="recommended">Yes</p>
+                    <p><input id="no" value="rb" type="radio" name="recommended">No</p>
+                    <p><input id="not_sure" value="rb" type="radio" name="recommended">Not sure</p>
+                </fieldset>
+
+                <fieldset id="liked">
+                    <p>What do you like most about Microverse?</p>
+                    <select id="dropdown">
+                        <option value="teachers">Teachers</option>
+                        <option value="content">Content quality</option>
+                        <option value="challengues">Challengues</option>
+                        <option value="courses">Courses</option>
+                        <option value="opportunities">Opportunities</option>
+                        <option value="classrom">Classroom</option>
+                    </select>
+                </fieldset>
+
+                <fieldset id="improvement">
+                    <p>What do you would like to be improved on Microverse in the future?</p>
+                    <ul>
+                        <p><input type="checkbox" id="cb1" value="content">Content</p>
+                        <p><input type="checkbox" id="cb2" value="challenges">Challenges</p>
+                        <p><input type="checkbox" id="cb3" value="oportunities">Opportunities</p>
+                        <p><input type="checkbox" id="cb4" value="communication">Communication between partners</p>
+                        <p><input type="checkbox" id="cb5" value="pairprog">Pair programming</p>
+                        <p><input type="checkbox" id="cb6" value="github">GitHub integration</p>
+                    </ul>
+                </fieldset>
+
+                <fieldset>
+                    <p>Do you have any suggestions?</p>
+                    <textarea id="textarea" rows="5" cols="60" value="suggestions"></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <input type="submit" id="submit" value="Submit">
+                </fieldset>
+
+
+            </form>
+        </section>
+
+        <footer>
+
+        </footer>
+
+    </body>
+
+</html>

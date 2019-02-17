@@ -1,0 +1,30 @@
+body {
+    background: #785589;
+}
+
+fieldset {
+    alignment: center;
+    border: 2px white;
+    background: whitesmoke;
+    border-radius: 25px;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    background: #BB8A89;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 25px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 14px;
+    color: #0D160B;
+}
