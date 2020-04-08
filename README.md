@@ -1,6 +1,6 @@
 # HTML/CSS Survey Project
 
-> Project Created to apply to Microverse School For Remote Software Developers using Visual Studio Code and  HTML with CSS.
+> Survey Page Created n colaborative to apply to Microverse School For Remote Software Developers using Visual Studio Code,HTML and CSS.
 
 ![screenshot](./screenshotsurvey.gif)
 
